@@ -232,7 +232,7 @@ export function Header() {
           className="w-28 h-12 p-6 bg-red-400 text-gray-100 flex items-center justify-center"
           onClick={testAPI}
           >
-            Test
+            Test API
           </button>
         </div>
 
