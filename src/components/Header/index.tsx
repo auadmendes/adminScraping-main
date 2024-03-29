@@ -123,7 +123,7 @@ export function Header() {
 
       setData(response.data);
     } catch (error) {
-      console.error('Error fetching data:', error);
+      console.error('Error fetching data.....:', error);
     }
   }
 
@@ -229,7 +229,7 @@ export function Header() {
             
           </div>
           <button
-          className="w-28 h-12 p-6 bg-red-400 text-gray-100"
+          className="w-28 h-12 p-6 bg-red-400 text-gray-100 flex items-center justify-center"
           onClick={testAPI}
           >
             Test
