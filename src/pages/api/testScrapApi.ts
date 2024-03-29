@@ -28,6 +28,7 @@ export default async function handler() {
       let page = await browser.newPage();
       await page.goto(pageDetails);
 
+      console.log('Fechando')
       await browser.close()
 
 
